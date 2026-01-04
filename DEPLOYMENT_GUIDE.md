@@ -1,134 +1,45 @@
-# 🚀 Modern GitHub Pages Deployment Guide
+# Course Structure Guide
 
-## Your Modern Course Website is Ready!
+## Simple Repository Organization
 
-Your MS 465: Computational Electron Microscopy website now features a **cutting-edge modern design** with:
+This course repository is organized into 10 weekly folders (Week_01 through Week_10), each containing:
 
-### ✨ Modern Features Implemented
-- **Advanced CSS Architecture** with CSS variables and modern gradients
-- **Professional Typography** using Inter and JetBrains Mono fonts
-- **Responsive Design** optimized for all devices
-- **Interactive Elements** with smooth hover effects and animations
-- **Dark Mode Support** with CSS custom properties
-- **Progressive Enhancement** with JavaScript features
-- **Accessibility** improvements and keyboard navigation
-- **Performance Optimizations** with loading states and smooth scrolling
+- README.md: Week overview and topics
+- lectures/: Lecture materials and notebooks
+- code_examples/: Example code and scripts
+- exercises/: Practice problems
+- assignments/: Assignment descriptions and templates
+- resources/: Additional reading and references
 
-### 🎨 Design Highlights
-- **Northwestern Branding** with official purple (#4e2a84)
-- **Hero Sections** with gradient backgrounds and call-to-action buttons
-- **Card-Based Layouts** for courses, schedules, and assignments
-- **Modern Navigation** with icons and active states
-- **Professional Footer** with comprehensive course information
-- **Copy-to-Clipboard** functionality for code blocks
-- **Animated Progress Bars** and interactive statistics
+## Using This Repository
 
-## 🌐 Deploy Your Modern Site
+### For Students
 
-### 1. Enable GitHub Pages
-1. Go to: **https://github.com/NU-MSE-LECTURES/465_Computational_Microscopy_2026**
-2. Click **Settings** → **Pages** (left sidebar)
-3. Under **Source**, select:
-   - **Deploy from a branch**
-   - **Branch**: `dev`
-   - **Folder**: `/ (root)`
-4. Click **Save**
+1. Clone the repository to your local machine
+2. Set up the Python environment using environment.yml
+3. Navigate to the appropriate week folder for materials
+4. Complete assignments and exercises in your own fork
 
-### 2. Your Live Website
-Once deployed, visit your modern site at:
-```
-🌍 https://nu-mse-lectures.github.io/465_Computational_Microscopy_2026/
-```
+### For Instructors
 
-*Build time: ~2-3 minutes for first deployment*
+1. Add lecture materials to the lectures/ folder in each week
+2. Place example code in code_examples/
+3. Create exercises and assignments in their respective folders
+4. Add supplementary materials to resources/
 
-### 3. Modern Site Structure
+## Environment Setup
 
-#### 🏠 **Homepage** (`index.md`)
-- Hero section with course overview
-- Interactive learning path with 4 phases
-- Course statistics and technology showcase
-- Quick start guide with step-by-step cards
+Use the provided environment.yml file to create the course environment:
 
-#### 📅 **Schedule** (`schedule.md`)
-- Phase-based organization (4 learning phases)
-- Weekly cards with topics and deliverables
-- Responsive grid layout with hover effects
-- Progress indicators and badges
-
-#### 📝 **Assignments** (`assignments.md`)
-- Interactive assignment grid
-- Evaluation criteria with visual indicators
-- Submission guidelines and deadlines
-- Modern card layouts with animations
-
-#### 📚 **Resources** (`resources.md`)
-- Comprehensive software installation guides
-- Library documentation with version badges
-- Community support and contact information
-- Modern grid layouts for easy navigation
-
-### 4. Technical Architecture
-
-```yaml
-Modern Stack:
-  CSS: Advanced variables, gradients, animations
-  Typography: Inter + JetBrains Mono fonts
-  Layout: CSS Grid + Flexbox
-  JavaScript: Progressive enhancement
-  Accessibility: WCAG 2.1 compliant
-  Performance: Optimized loading + caching
-```
-
-### 5. Automatic Updates
-Any changes pushed to the `dev` branch will automatically rebuild the site with:
-- **Zero downtime** deployment
-- **Automatic optimization** of assets
-- **Cache invalidation** for instant updates
-
-### 6. Local Development (Optional)
 ```bash
-# Quick local testing
-bundle exec jekyll serve --livereload
-
-# View at http://localhost:4000 with hot reloading
+conda env create -f environment.yml
+conda activate ms465-2026
 ```
 
-## 🎯 What Makes This Modern?
+## Weekly Topics
 
-### **Visual Design**
-- Gradient backgrounds and modern color schemes
-- Card-based interfaces with subtle shadows
-- Interactive hover states and micro-animations
-- Professional typography hierarchy
+Each week covers specific topics as outlined in the main README.md file. Refer to each week's README.md for detailed information about topics, assignments, and resources.
 
-### **User Experience**
-- Intuitive navigation with visual feedback
-- Mobile-first responsive design
-- Progressive disclosure of information
-- Accessibility-first approach
+## No Website Deployment
 
-### **Technical Excellence**
-- Modern CSS architecture with custom properties
-- Performance-optimized asset loading
-- Progressive enhancement principles
-- SEO and structured data optimization
-
-## 🚀 Ready for Launch!
-
-Your course website is now equipped with:
-- ✅ **Modern design** that rivals contemporary web standards
-- ✅ **Professional presentation** for Northwestern University
-- ✅ **Mobile optimization** for student accessibility
-- ✅ **Interactive features** for enhanced engagement
-- ✅ **Accessibility compliance** for inclusive education
-- ✅ **Performance optimization** for fast loading
-
-**Next Steps:**
-1. 🌐 **Deploy now** using the instructions above
-2. 📱 **Test responsiveness** on different devices
-3. 🎨 **Customize further** if needed
-4. 📢 **Share with students** once live
-5. 📈 **Monitor usage** and gather feedback
-
-Your modern, professional course website is ready to impress students and colleagues alike! 🎉
+This repository is designed for direct use via Git/GitHub. There is no website deployment. Students and instructors should access materials directly through the repository.
