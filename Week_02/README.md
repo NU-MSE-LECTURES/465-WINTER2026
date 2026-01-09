@@ -1,4 +1,4 @@
-# Week 2: Core Tools for Microscopy Data Analysis
+# Week 2: Core Tools for Microscopy Data Analysis -= Test
 January 12-16, 2026
 
 ## Monday: Python Ecosystem for EM Data
