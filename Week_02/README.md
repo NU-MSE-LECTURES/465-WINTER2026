@@ -1,4 +1,5 @@
-# Week 2: Multidimensional Data Structures and 4D-STEM Foundations
+
+# Week 2: Core Tools for Microscopy Data Analysis
 January 12-16, 2026
 
 ## Overview

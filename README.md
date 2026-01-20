@@ -1,4 +1,4 @@
-# Materials Science 465: Computational Electron Microscopy
+# Materials Science 465: Computational Electron Microscopy - Test for git pull
 Northwestern University - Winter Quarter 2026
 
 ## Course Information
