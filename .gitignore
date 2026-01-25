@@ -141,6 +141,13 @@ dmypy.json
 *.cxi
 *.tif
 *.tiff
+# Allow tracked Week 02 assignment raw data
+!Week_02/assignments/raw_data/*.dm3
+!Week_02/assignments/raw_data/*.dm4
+!Week_02/assignments/raw_data/*.ser
+!Week_02/assignments/raw_data/*.emd
+!Week_02/assignments/raw_data/*.tif
+!Week_02/assignments/raw_data/*.tiff
 
 # Large datasets
 datasets/large_datasets/
